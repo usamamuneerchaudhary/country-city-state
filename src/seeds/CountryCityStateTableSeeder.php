@@ -15,11 +15,11 @@ class CountryCityStateTableSeeder extends Seeder
      */
     public function run()
     {
-        Country::insert(CountryCityStateProvider::Countries());
+        Country::insert(CountryCityStateProvider::countries());
 
-        State::insert(CountryCityStateProvider::States());
+        State::insert(CountryCityStateProvider::states());
 
-        foreach (collect(CountryCityStateProvider::Cities())->chunk(15000) as $chunkCities){
+        foreach (collect(CountryCityStateProvider::cities())->chunk(15000) as $chunkCities){
             City::insert($chunkCities->toArray());
         }
     }

@@ -1,10 +1,13 @@
 <?php
 
-namespace App\Providers;
+namespace Database\Seeders\Helpers;
 
 abstract class CountryCityStateProvider
 {
-    public static function Countries()
+    /**
+    * Return all countries
+    */
+    public static function countries()
     {
         return [
             ['id' => '1', 'name' => 'afghanistan'],
@@ -256,7 +259,10 @@ abstract class CountryCityStateProvider
         ];
     }
 
-    public static function States()
+    /**
+    * Return all states against states
+    */
+    public static function states()
     {
         return [
             ['id' => '1', 'country_id' => '101', 'name' => 'andaman and nicobar islands'],
@@ -4382,7 +4388,10 @@ abstract class CountryCityStateProvider
         ];
     }
 
-    public static function Cities()
+    /**
+    * Return all cities against states/countries
+    */
+    public static function cities()
     {
         return [
             ['id' => '1', 'state_id' => '1', 'name' => 'bombuflat'],
