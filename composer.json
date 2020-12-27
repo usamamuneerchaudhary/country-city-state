@@ -50,10 +50,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "UsamaMuneerChaudhary\\CountryStateCityData\\CountryStateCityDataServiceProvider"
+                "UsamaMuneerChaudhary\\CountryStateCity\\CountryStateCityServiceProvider"
             ],
             "aliases": {
-                "CountryStateCityData": "UsamaMuneerChaudhary\\CountryStateCityData\\CountryStateCityDataFacade"
+                "CountryStateCity": "UsamaMuneerChaudhary\\CountryStateCity\\CountryStateCityFacade"
             }
         }
     }

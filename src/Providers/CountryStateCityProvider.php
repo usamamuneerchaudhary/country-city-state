@@ -1,8 +1,8 @@
 <?php
 
-namespace App\DataProviders;
+namespace App\Providers;
 
-abstract class CountryStateCityDataProvider
+abstract class CountryStateCityProvider
 {
     public static function Countries()
     {
