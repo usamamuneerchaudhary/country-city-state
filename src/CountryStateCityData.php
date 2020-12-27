@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\CountryStateCityData;
+namespace usamamuneerchaudhary\CountryStateCityData;
 
 class CountryStateCityData
 {
