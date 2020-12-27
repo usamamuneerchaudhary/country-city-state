@@ -1,12 +1,12 @@
 <?php
 use Illuminate\Database\Seeder;
-use App\Country;
-use App\State;
-use App\City;
-use App\DataProviders\CountryStateCityProvider;
+use App\Models\Country;
+use App\Models\State;
+use App\Models\City;
+use App\Providers\CountryCityStateProvider;
 
 
-class CountryStateCityTableSeeder extends Seeder
+class CountryCityStateTableSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -15,11 +15,11 @@ class CountryStateCityTableSeeder extends Seeder
      */
     public function run()
     {
-        Country::insert(CountryStateCityProvider::Countries());
+        Country::insert(CountryCityStateProvider::Countries());
 
-        State::insert(CountryStateCityProvider::States());
+        State::insert(CountryCityStateProvider::States());
 
-        foreach (collect(CountryStateCityProvider::Cities())->chunk(15000) as $chunkCities){
+        foreach (collect(CountryCityStateProvider::Cities())->chunk(15000) as $chunkCities){
             City::insert($chunkCities->toArray());
         }
     }

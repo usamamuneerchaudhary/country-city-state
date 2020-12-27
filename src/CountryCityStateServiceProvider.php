@@ -25,7 +25,7 @@ class CountryCityStateServiceProvider extends ServiceProvider
                 __DIR__.'/migrations' => database_path('migrations'),
                 __DIR__.'/Models' => app_path('Models'),
                 __DIR__.'/DataProviders' => app_path('Providers'),
-                __DIR__.'/seeds' => database_path('seeds'),
+                __DIR__.'/seeds' => database_path('seeders'),
             ], 'CountryCityState');
 
             /*$this->publishes([
