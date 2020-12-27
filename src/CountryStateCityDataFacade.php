@@ -1,6 +1,6 @@
 <?php
 
-namespace usamamuneerchaudhary\CountryStateCityData;
+namespace UsamaMuneerChaudhary\CountryStateCityData;
 
 use Illuminate\Support\Facades\Facade;
 

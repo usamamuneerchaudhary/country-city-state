@@ -1,6 +1,6 @@
 <?php
 
-namespace usamamuneerchaudhary\CountryStateCityData;
+namespace UsamaMuneerChaudhary\CountryStateCityData;
 
 class CountryStateCityData
 {
