@@ -30,12 +30,12 @@
     },
     "autoload": {
         "psr-4": {
-            "UsamaMuneerChaudhary\\CountryStateCity\\": "src"
+            "UsamaMuneerChaudhary\\CountryStateCityData\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "UsamaMuneerChaudhary\\CountryStateCity\\Tests\\": "tests"
+            "UsamaMuneerChaudhary\\CountryStateCityData\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -50,10 +50,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "UsamaMuneerChaudhary\\CountryStateCity\\CountryStateCityServiceProvider"
+                "UsamaMuneerChaudhary\\CountryStateCityData\\CountryStateCityServiceProvider"
             ],
             "aliases": {
-                "CountryStateCity": "UsamaMuneerChaudhary\\CountryStateCity\\CountryStateCityFacade"
+                "CountryStateCity": "UsamaMuneerChaudhary\\CountryStateCityData\\CountryStateCityFacade"
             }
         }
     }
