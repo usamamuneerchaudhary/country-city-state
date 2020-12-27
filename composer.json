@@ -30,12 +30,12 @@
     },
     "autoload": {
         "psr-4": {
-            "UsamaMuneerChaudhary\\CountryStateCityData\\": "src"
+            "UsamaMuneerChaudhary\\CountryStateCity\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "UsamaMuneerChaudhary\\CountryStateCityData\\Tests\\": "tests"
+            "UsamaMuneerChaudhary\\CountryStateCity\\Tests\\": "tests"
         }
     },
     "scripts": {
