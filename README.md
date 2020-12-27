@@ -8,14 +8,14 @@ You can install the package via composer:
 
 ```bash
 
-composer require usamamuneerchaudhary/country-state-city --dev
+composer require usamamuneerchaudhary/country-state-city
 ```
 
 ## Usage
 
 ``` php
 run below commands
-1) php artisan vendor:publish --tag=CountryCityStateData
+1) php artisan vendor:publish --tag=CountryCityState
 2) composer dump-autoload
 3) php artisan migrate
 ```
