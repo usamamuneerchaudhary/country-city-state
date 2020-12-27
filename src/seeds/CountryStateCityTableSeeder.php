@@ -1,9 +1,9 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use App\Models\Country;
-use App\Models\State;
-use App\Models\City;
+use App\Country;
+use App\State;
+use App\City;
 use App\DataProviders\CountryStateCityDataProvider;
 
 

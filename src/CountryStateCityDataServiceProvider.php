@@ -23,8 +23,8 @@ class CountryStateCityDataServiceProvider extends ServiceProvider
 
             $this->publishes([
                 __DIR__.'/migrations' => database_path('migrations'),
-                __DIR__.'/Models' => app_path(),
-                __DIR__.'/DataProviders' => app_path('DataProviders'),
+                __DIR__.'/Models' => app_path('Models'),
+                __DIR__.'/DataProviders' => app_path('Providers'),
                 __DIR__.'/seeds' => database_path('seeds'),
             ], 'LaravelCountryStateCityData');
 
