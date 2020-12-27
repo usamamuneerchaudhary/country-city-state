@@ -49,7 +49,7 @@ class CreateCountryStateCityTable extends Migration
                 ->onUpdate('cascade')->onDelete('cascade');
         });
         Artisan::call('db:seed', [
-            '--class' => CountryStateCityTableSeeder::class
+            '--class' => CountryCityStateTableSeeder::class
         ]);
     }
     
