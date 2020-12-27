@@ -4,9 +4,7 @@ namespace Laravel\CountryCityStateData;
 
 use Illuminate\Support\Facades\Facade;
 
-/**
- * @see \Laravel\CountryCityStateData\Skeleton\SkeletonClass
- */
+
 class CountryStateCityDataFacade extends Facade
 {
     /**
