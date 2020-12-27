@@ -1,10 +1,10 @@
 <?php
 
-namespace UsamaMuneerChaudhary\CountryStateCityData;
+namespace UsamaMuneerChaudhary\CountryCityState;
 
 use Illuminate\Support\ServiceProvider;
 
-class CountryStateCityDataServiceProvider extends ServiceProvider
+class CountryCityStateServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap the application services.
@@ -26,7 +26,7 @@ class CountryStateCityDataServiceProvider extends ServiceProvider
                 __DIR__.'/Models' => app_path('Models'),
                 __DIR__.'/DataProviders' => app_path('Providers'),
                 __DIR__.'/seeds' => database_path('seeds'),
-            ], 'CountryStateCityData');
+            ], 'CountryCityState');
 
             /*$this->publishes([
                 __DIR__.'/../config/config.php' => config_path('laravel-country-state-city-data.php'),

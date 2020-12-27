@@ -1,9 +1,10 @@
 {
-    "name": "usamamuneerchaudhary/country-state-city",
-    "description": "Country State City Data Provider",
+    "name": "usamamuneerchaudhary/country-city-state",
+    "description": "Country City State Data Provider",
     "keywords": [
         "usamamuneerchaudhary",
         "country-state-city",
+        "country-city-state",
         "countries",
         "country",
         "laravel",
@@ -12,7 +13,7 @@
         "city",
         "cities"
     ],
-    "homepage": "https://github.com/usamamuneerchaudhary/country-state-city.git",
+    "homepage": "https://github.com/usamamuneerchaudhary/country-city-state.git",
     "license": "MIT",
     "type": "library",
     "authors": [{
@@ -30,12 +31,12 @@
     },
     "autoload": {
         "psr-4": {
-            "UsamaMuneerChaudhary\\CountryStateCityData\\": "src"
+            "UsamaMuneerChaudhary\\CountryCityState\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "UsamaMuneerChaudhary\\CountryStateCityData\\Tests\\": "tests"
+            "UsamaMuneerChaudhary\\CountryCityState\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -50,10 +51,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "UsamaMuneerChaudhary\\CountryStateCityData\\CountryStateCityDataServiceProvider"
+                "UsamaMuneerChaudhary\\CountryCityState\\CountryCityStateServiceProvider"
             ],
             "aliases": {
-                "CountryStateCityData": "UsamaMuneerChaudhary\\CountryStateCityData\\CountryStateCityDataFacade"
+                "CountryCityState": "UsamaMuneerChaudhary\\CountryCityState\\CountryCityStateFacade"
             }
         }
     }

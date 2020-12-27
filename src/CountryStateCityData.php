@@ -1,8 +1,8 @@
 <?php
 
-namespace UsamaMuneerChaudhary\CountryStateCityData;
+namespace UsamaMuneerChaudhary\CountryCityState;
 
-class CountryStateCityData
+class CountryCityState
 {
     
 }

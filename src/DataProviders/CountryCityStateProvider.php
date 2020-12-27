@@ -2,7 +2,7 @@
 
 namespace App\DataProviders;
 
-abstract class CountryStateCityDataProvider
+abstract class CountryCityStateProvider
 {
     public static function Countries()
     {
