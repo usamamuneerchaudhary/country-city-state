@@ -4385,7 +4385,7 @@ abstract class CountryCityStateHelper
             ['country_id' => '246', 'name' => 'matabeleland north'],
             ['country_id' => '246', 'name' => 'matabeleland south'],
             [ 'country_id' => '246', 'name' => 'midlands']
-        ]
+        ];
            
     }
 
