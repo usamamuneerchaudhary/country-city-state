@@ -5,7 +5,7 @@ namespace UsamaMuneerChaudhary\CountryStateCityData;
 use Illuminate\Support\Facades\Facade;
 
 
-class CountryStateCityFacade extends Facade
+class CountryStateCityDataFacade extends Facade
 {
     /**
      * Get the registered name of the component.
@@ -14,6 +14,6 @@ class CountryStateCityFacade extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return 'country-city-state';
+        return 'country-city-state-data';
     }
 }

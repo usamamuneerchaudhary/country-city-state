@@ -2,7 +2,7 @@
 
 namespace UsamaMuneerChaudhary\CountryStateCityData;
 
-class CountryStateCity
+class CountryStateCityData
 {
-    // Build your next great package.
+    
 }

@@ -4,7 +4,7 @@ namespace UsamaMuneerChaudhary\CountryStateCityData;
 
 use Illuminate\Support\ServiceProvider;
 
-class CountryStateCityServiceProvider extends ServiceProvider
+class CountryStateCityDataServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap the application services.

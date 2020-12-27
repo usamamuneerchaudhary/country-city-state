@@ -3,7 +3,7 @@ use Illuminate\Database\Seeder;
 use App\Country;
 use App\State;
 use App\City;
-use App\Providers\CountryStateCityProvider;
+use App\DataProviders\CountryStateCityProvider;
 
 
 class CountryStateCityTableSeeder extends Seeder
