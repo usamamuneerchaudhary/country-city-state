@@ -15,7 +15,7 @@ class CreateCountryStateCityTable extends Migration
     public function up()
     {
         Schema::create('countries', function (Blueprint $table) {
-            $table->id();
+            $table->bigIncrements('id');
             $table->string('name', 255);
             $table->enum('status', ['active', 'inactive'])->default('active');
             $table->timestamp('created_at')->useCurrent();
@@ -24,7 +24,7 @@ class CreateCountryStateCityTable extends Migration
         });
         
         Schema::create('states', function (Blueprint $table) {
-            $table->id();
+            $table->bigIncrements('id');
             $table->unsignedBigInteger('country_id');
             $table->string('name', 255);
             $table->enum('status', ['active', 'inactive'])->default('active');
@@ -37,7 +37,7 @@ class CreateCountryStateCityTable extends Migration
         });
         
         Schema::create('cities', function (Blueprint $table) {
-            $table->id();
+            $table->bigIncrements('id');
             $table->unsignedBigInteger('state_id');
             $table->string('name', 255);
             $table->enum('status', ['active', 'inactive'])->default('active');

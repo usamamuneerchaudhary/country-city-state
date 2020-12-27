@@ -2,7 +2,7 @@
 
 namespace Database\Seeders;
 
-abstract class CountryCityStateProvider
+abstract class CountryCityStateHelper
 {
     /**
     * Return all countries
