@@ -17,7 +17,7 @@ class CountryCityStateTableSeeder extends Seeder
      */
     public function run()
     {
-        ini_set('memory_limit','256M');
+        ini_set('memory_limit', '128M');
       $countries = CountryCityStateHelper::countries();
         foreach ($countries as $country) {
             Country::firstOrCreate($country);

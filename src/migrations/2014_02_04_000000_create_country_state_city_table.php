@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
+use Database\Seeders\CountryCityStateTableSeeder;
 
 class CreateCountryStateCityTable extends Migration
 {
