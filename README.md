@@ -8,7 +8,7 @@ You can install the package via composer:
 
 ```bash
 
-composer require usamamuneerchaudhary/country-state-city
+composer require usamamuneerchaudhary/country-city-state
 ```
 
 ## Usage
