@@ -1,6 +1,6 @@
 <?php
 
-namespace Database\Seeders\Helpers;
+namespace Database\Seeders;
 
 abstract class CountryCityStateProvider
 {
