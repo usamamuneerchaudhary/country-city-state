@@ -1,10 +1,10 @@
 <?php
 
-namespace DipeshSukhia\LaravelCountryStateCityData;
+namespace Laravel\CountryCityStateData;
 
 use Illuminate\Support\ServiceProvider;
 
-class LaravelCountryStateCityDataServiceProvider extends ServiceProvider
+class CountryStateCityDataServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap the application services.

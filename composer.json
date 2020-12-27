@@ -30,12 +30,12 @@
     },
     "autoload": {
         "psr-4": {
-            "usamamuneerchaudhary\\CountryCityStateData\\": "src"
+            "Laravel\\CountryCityStateData\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "usamamuneerchaudhary\\CountryCityStateData\\Tests\\": "tests"
+            "Laravel\\CountryCityStateData\\Tests\\": "tests"
         }
     },
     "scripts": {
