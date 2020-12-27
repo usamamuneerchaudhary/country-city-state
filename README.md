@@ -15,9 +15,12 @@ composer require usamamuneerchaudhary/country-state-city
 
 ``` php
 run below commands
-1) php artisan vendor:publish --tag=CountryCityState
-2) composer dump-autoload
-3) php artisan migrate
+
+php artisan vendor:publish --tag=CountryCityState
+
+composer dump-autoload
+
+php artisan migrate
 ```
 
 ### Testing

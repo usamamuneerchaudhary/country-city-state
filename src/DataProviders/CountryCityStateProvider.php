@@ -1,6 +1,6 @@
 <?php
 
-namespace App\DataProviders;
+namespace App\Providers;
 
 abstract class CountryCityStateProvider
 {
