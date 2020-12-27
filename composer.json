@@ -1,0 +1,60 @@
+{
+    "name": "usamamuneerchaudhary/country-state-city",
+    "description": "Country State City Data Provider",
+    "keywords": [
+        "usamamuneerchaudhary",
+        "country-state-city",
+        "countries",
+        "country",
+        "laravel",
+        "state",
+        "states",
+        "city",
+        "cities"
+    ],
+    "homepage": "https://github.com/usamamuneerchaudhary/country-city-state.git",
+    "license": "MIT",
+    "type": "library",
+    "authors": [{
+        "name": "Usama Muneer",
+        "email": "hello@usamamuneer.me",
+        "role": "Developer"
+    }],
+    "require": {
+        "php": ">=7.3",
+        "illuminate/support": "5.8.*|^6.0|^7.0|^8.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "6.7.*",
+        "phpunit/phpunit": "^7.0|^8.0|^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "usamamuneerchaudhary\\CountryCityStateData\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "usamamuneerchaudhary\\CountryCityStateData\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "stable",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "usamamuneerchaudhary\\CountryCityStateData\\CountryCityStateDataServiceProvider"
+            ],
+            "aliases": {
+                "CountryStateCityData": "usamamuneerchaudhary\\CountryStateCityData\\CountryCityStateDataFacade"
+            }
+        }
+    }
+}
