@@ -265,7 +265,7 @@ abstract class CountryCityStateHelper
     public static function states()
     {
         return [
-            [ 'country_id' => '101', 'name' => 'andaman and nicobar islands'],
+             [ 'country_id' => '101', 'name' => 'andaman and nicobar islands'],
             [ 'country_id' => '101', 'name' => 'andhra pradesh'],
             [ 'country_id' => '101', 'name' => 'arunachal pradesh'],
             [ 'country_id' => '101', 'name' => 'assam'],
