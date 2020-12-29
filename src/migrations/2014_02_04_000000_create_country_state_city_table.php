@@ -18,6 +18,9 @@ class CreateCountryStateCityTable extends Migration
         Schema::create('countries', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('name', 255);
+            $table->string('iso_code2')->nullable();
+            $table->string('iso_code3')->nullable();
+            $table->integer('num_code')->nullable();
             $table->enum('status', ['active', 'inactive'])->default('active');
             $table->timestamp('created_at')->useCurrent();
             $table->timestamp('updated_at')->useCurrent();
@@ -49,6 +52,19 @@ class CreateCountryStateCityTable extends Migration
             $table->foreign('state_id')->references('id')->on('states')
                 ->onUpdate('cascade')->onDelete('cascade');
         });
+
+
+        Schema::create('country_phone_codes', function (Blueprint $table) {
+            $table->id();
+            $table->string('phone_code');
+            $table->string('intl_dialing_prefix')->nullable();
+            $table->unsignedInteger('country_id');
+            $table->foreign('country_id')->on('countries')->references('id')->onDelete('cascade');
+            $table->timestamps();
+        });
+
+
+
         Artisan::call('db:seed', [
             '--class' => CountryCityStateTableSeeder::class
         ]);

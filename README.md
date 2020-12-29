@@ -1,6 +1,6 @@
 # Country, City, State Data
 
-World's Country City State Data Provider for Laravel `^v7.0`, `^v8.0`
+World's Country City State Data for Laravel `^v7.0`, `^v8.0` with phone codes support as per ISO standards.
 
 ## Installation
 

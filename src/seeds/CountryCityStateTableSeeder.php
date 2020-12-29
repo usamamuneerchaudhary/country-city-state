@@ -17,7 +17,7 @@ class CountryCityStateTableSeeder extends Seeder
      */
     public function run()
     {
-        ini_set('memory_limit', '128M');
+        
       $countries = CountryCityStateHelper::countries();
         foreach ($countries as $country) {
             Country::firstOrCreate($country);
@@ -31,6 +31,12 @@ class CountryCityStateTableSeeder extends Seeder
         $cities = CountryCityStateHelper::cities();
         foreach ($cities as $city) {
             City::firstOrCreate($city);
+        }
+
+        
+        $cities = CountryCityStateHelper::phoneCodes();
+        foreach ($codes as $code) {
+            \App\Models\CountryPhoneCode::create($code);
         }
     }
 }
