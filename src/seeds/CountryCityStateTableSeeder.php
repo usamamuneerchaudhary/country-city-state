@@ -6,6 +6,7 @@ use Illuminate\Database\Seeder;
 use App\Models\Country;
 use App\Models\State;
 use App\Models\City;
+use App\Models\CountryPhoneCode;
 
 
 class CountryCityStateTableSeeder extends Seeder
@@ -32,11 +33,10 @@ class CountryCityStateTableSeeder extends Seeder
         foreach ($cities as $city) {
             City::firstOrCreate($city);
         }
-
         
-        $cities = CountryCityStateHelper::phoneCodes();
+        $codes = CountryCityStateHelper::phoneCodes();
         foreach ($codes as $code) {
-            \App\Models\CountryPhoneCode::create($code);
+            CountryPhoneCode::create($code);
         }
     }
 }
