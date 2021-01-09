@@ -58,7 +58,7 @@ class CreateCountryStateCityTable extends Migration
             $table->id();
             $table->string('phone_code');
             $table->string('intl_dialing_prefix')->nullable();
-            $table->unsignedInteger('country_id');
+            $table->unsignedBigInteger('country_id');
             $table->foreign('country_id')->on('countries')->references('id')->onDelete('cascade');
             $table->timestamps();
         });
