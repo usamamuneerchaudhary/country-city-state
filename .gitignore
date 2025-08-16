@@ -4,3 +4,11 @@ docs
 vendor
 coverage
 .idea
+.phpunit.result.cache
+*.log
+.env
+.env.*
+node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

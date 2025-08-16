@@ -1,8 +1,9 @@
 <?php
 
-namespace App\Models;
+namespace UsamaMuneerChaudhary\CountryCityState\Models;
 
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
 class CountryPhoneCode extends Model
 {
@@ -10,10 +11,7 @@ class CountryPhoneCode extends Model
         'id', 'phone_code', 'intl_dialing_prefix', 'country_id'
     ];
 
-    /**
-     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
-     */
-    public function country()
+    public function country(): BelongsTo
     {
         return $this->belongsTo(Country::class);
     }

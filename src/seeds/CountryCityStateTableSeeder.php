@@ -1,13 +1,13 @@
 <?php
 
-namespace Database\Seeders;
+namespace UsamaMuneerChaudhary\CountryCityState\seeds;
 
 use Illuminate\Database\Seeder;
-use App\Models\Country;
-use App\Models\State;
-use App\Models\City;
-use App\Models\CountryPhoneCode;
-
+use UsamaMuneerChaudhary\CountryCityState\Models\Country;
+use UsamaMuneerChaudhary\CountryCityState\Models\State;
+use UsamaMuneerChaudhary\CountryCityState\Models\City;
+use UsamaMuneerChaudhary\CountryCityState\Models\CountryPhoneCode;
+use UsamaMuneerChaudhary\CountryCityState\Helpers\CountryCityStateHelper;
 
 class CountryCityStateTableSeeder extends Seeder
 {
@@ -18,8 +18,7 @@ class CountryCityStateTableSeeder extends Seeder
      */
     public function run()
     {
-        
-      $countries = CountryCityStateHelper::countries();
+        $countries = CountryCityStateHelper::countries();
         foreach ($countries as $country) {
             Country::firstOrCreate($country);
         }
