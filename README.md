@@ -1,6 +1,13 @@
 # Country, City, State Data
 
-World's Country City State Data for Laravel `^12.0` with PHP `^8.3` and phone codes support as per ISO standards.
+World's Country City State Data for Laravel `^12.0` with PHP `^8.3|^8.4` and phone codes support as per ISO standards.
+
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/usamamuneerchaudhary/country-city-state.svg)](https://packagist.org/packages/usamamuneerchaudhary/country-city-state)
+[![Total Downloads](https://img.shields.io/packagist/dt/usamamuneerchaudhary/country-city-state.svg)](https://packagist.org/packages/usamamuneerchaudhary/country-city-state)
+[![Monthly Downloads](https://img.shields.io/packagist/dm/usamamuneerchaudhary/country-city-state.svg)](https://packagist.org/packages/usamamuneerchaudhary/country-city-state)
+[![License](https://img.shields.io/packagist/l/usamamuneerchaudhary/country-city-state.svg)](https://github.com/usamamuneerchaudhary/country-city-state/blob/main/LICENSE.md)
+[![PHP Version](https://img.shields.io/packagist/php-v/usamamuneerchaudhary/country-city-state.svg)](https://packagist.org/packages/usamamuneerchaudhary/country-city-state)
+[![Laravel Version](https://img.shields.io/packagist/dependency-v/usamamuneerchaudhary/country-city-state/illuminate/support.svg)](https://packagist.org/packages/usamamuneerchaudhary/country-city-state)
 
 ## 🚀 Requirements
 
