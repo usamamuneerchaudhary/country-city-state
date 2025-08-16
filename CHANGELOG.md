@@ -2,7 +2,7 @@
 
 All notable changes to `country-city-state-data` will be documented in this file
 
-## 2.0.0 - 2024-12-19
+## 3.0 - 2025-08-16
 
 ### Added
 - PHP 8.3+ support

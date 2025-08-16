@@ -4,7 +4,7 @@ World's Country City State Data for Laravel `^12.0` with PHP `^8.3` and phone co
 
 ## 🚀 Requirements
 
-- **PHP**: ^8.3
+- **PHP**: ^8.3|^8.4
 - **Laravel**: ^12.0
 
 ## 📦 Installation
@@ -179,7 +179,7 @@ The package creates the following tables:
 composer test
 ```
 
-## 📝 What's New in v2.0
+## 📝 What's New in v3.0
 
 - ✅ **PHP 8.3+ Support** - Modern PHP features and performance
 - ✅ **Laravel 12+ Support** - Latest Laravel framework compatibility
